@@ -28,7 +28,7 @@ I've spent 10+ years building systems that run inline, where being slow or wrong
 ## Open source
 
 - 🧭 [claude-skills](https://github.com/santanusetu/claude-skills) - small, tested Claude Code skills. First one: **session-finder**, which finds a past session and resumes it in 1 click.
-- 🤖 [Ai-Git-Assist](https://github.com/santanusetu/Ai-Git-Assist) - Java CLI that writes commit messages, generates tests and scans staged changes for secrets before you commit.
+- 🛡️ [AI Commit Guard](https://github.com/santanusetu/ai-commit-guard) - AI commit assistant that catches secrets in staged changes and redacts them before the LLM sees anything, then writes the commit message. Java, tested in CI.
 - 🐞 [SpotBugs #4354](https://github.com/spotbugs/spotbugs/pull/4354) - fix for an `OS_OPEN_STREAM` false positive in the Java static analyzer.
 
 ## How I like to work
